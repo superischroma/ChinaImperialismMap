@@ -1,0 +1,100 @@
+body {
+    background-color: #111;
+}
+
+#map {
+    width: calc(100vh * 1.17647059);
+    height: calc(100vh - 4vh);
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 0.3%;
+}
+
+#rhs-container {
+    display: inline-block;
+    vertical-align: top;
+    width: 44%;
+}
+
+#title {
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+#status {
+    display: block;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #ddd;
+    line-height: 28px;
+}
+
+.poi {
+    fill: red;
+    fill-opacity: 0.4;
+    cursor: pointer;
+}
+
+.spoi {
+    fill: purple;
+    fill-opacity: 0.4;
+    cursor: pointer;
+}
+
+.popup-window {
+    position: absolute;
+    display: none;
+    min-width: 100px;
+    padding: 10px;
+    border: solid 1px #050505;
+    border-radius: 6px;
+    background-color: #000;
+}
+
+.popup-string {
+    position: relative;
+    font-size: 13px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    display: block;
+    max-width: 250px;
+}
+
+.popup-image {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    max-height: 250px;
+}
+
+#citation-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    background-color: #222;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#citation-button:hover {
+    background-color: #333;
+}
